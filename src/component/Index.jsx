@@ -1,5 +1,7 @@
 import CV from '../assets/CV.pdf'
 import './Index.css'
+import Lottie from 'react-lottie';
+import hi from '../hi.json'
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -26,6 +28,7 @@ import web4 from "../assets/aec.png";
 import web5 from "../assets/schl.png";
 import web6 from "../assets/schl2.jpg";
 import mypic from '../assets/mypic.jpeg'
+import Example from './CarouselDefault';
 
 
 export default function Index() {
@@ -51,9 +54,10 @@ export default function Index() {
                   className=" cursor-pointer ml-10 text-2xl"
                 />
               </li>
+              
               <li>
                 <button
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 rounded-full py-2  border-none animate-pulse  ml-10"
+                  className="bg-gradient-to-r from-cyan-500 text- to-yellow-500 text-white px-4 rounded-full py-2  border-none animate-pulse  ml-10"
                   href="#" onClick={handleDownload}
                 >
                   Resume
@@ -69,8 +73,9 @@ export default function Index() {
              Full Stack Web Developer and Designer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-1000 dark:text-white-200 max-w-xl mx-auto md:text-xl">
-              Hello guys!! Myself a full stack developer worked on ReactJS,NodeJS,MongoDB,SQL,SpringBoot.
+              Hello guys!! I am a full stack developer and UI/UX Designer worked on ReactJS,NodeJS,MongoDB,SQL,SpringBoot and AI based Designs.
             </p>
+            <h4 className='text-md py-5 leading-8 text-red-1000 dark:text-yellow-500 max-w-xl mx-auto md:text-xl'> CheckOut My Socials</h4>
             <div className="text-5xl flex justify-center gap-16 py-3 text-white-600 dark:text-white-400 ">
               
               <a href="https://www.linkedin.com/in/ayan-baksi-aa5a001b1/" className=' w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300 ' ><AiFillLinkedin className='rounded-full'/></a>
@@ -78,17 +83,18 @@ export default function Index() {
               <a href="https://github.com/ayanbaksi" className='w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300' ><AiFillGithub className='rounded-full'/></a>
               
             </div>
-            <div className='flex'>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96  overflow-hidden mt-20 mb-20 md:h-96 md:w-96">
-              <img src={e} layout="fill" objectFit="cover" />
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96  overflow-hidden mt-20 mb-20 md:h-96 md:w-96">
-              <img src={mypic}  layout="fill" objectFit="cover" />
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96  overflow-hidden mt-20 mb-20 md:h-96 md:w-96">
-              <img src={vector2} layout="fill" objectFit="cover" />
-            </div>
-            </div>
+            <div className='flex flex-col md:flex-row md:justify-center md:items-center'>
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
+    <img src={e} className="w-full h-full object-cover" alt="Image 1" />
+  </div>
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
+    <img src={mypic} className="w-full h-full object-cover" alt="Image 2" />
+  </div>
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
+    <img src={vector2} className="w-full h-full object-cover" alt="Image 3" />
+  </div>
+</div>
+
             
           </div>
         </section>
@@ -147,19 +153,22 @@ export default function Index() {
           </div>
         </section>
         <section className="py-10">
-          <div>
-            <h3 className="text-3xl font-burtons py-1 dark:text-white ">Portofolio</h3>
-            <h1 className='font-burtons'>Hover in dark mode to see the beauty and reveal </h1>
-            <p className="text-md py-2 leading-8  dark:spoilerr spoiler "  >
-              Since the beginning of my journey as a web developer and
-               I've done tried to lear new technologies and always trying to learn some more .
-               I am eager to work for a good company and benefit them with my skills.
-               Here are some of my works and achievements.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        <div>
+  <h3 className="text-3xl font-burtons py-1 dark:text-white">Portfolio</h3>
+  <h1 className="font-burtons">
+    Hover in dark mode to see the beauty and reveal
+  </h1>
+  <p className="text-md py-2 leading-8 dark:spoiler spoiler">
+    Since the beginning of my journey as a web developer,
+    I've tried to learn new technologies and constantly strive to learn more.
+    I am enthusiastic about contributing my skills to a reputable company.
+    Here are some of my works and achievements.
+  </p>
+</div>
+
+<div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-            <h1 className='flex text-md px-20 justify-centre ml-20 text-1xl text-black-900 py-1 dark:text-white'>Oracle Certified Java Associate</h1>
+            <h1 className='flex text-md  justify-centre text-1xl text-black-900 py-1 dark:text-white justify-centre text-3xl  ml-10 font-burtons py-5'>Oracle Certified Java Associate</h1>
               <img
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -169,7 +178,7 @@ export default function Index() {
               />
             </div>
             <div className="basis-1/3 flex-1">
-            <h1 className='flex text-md px-7 ml-20 text-1xl text-black-900 py-1 dark:text-white'>Inventory Management System(React and SpringBoot)</h1>
+            <h1 className='flex text-md  text-1xl text-black-900 py-1 dark:text-white justify-centre text-3xl  ml-10 font-burtons py-5'>Inventory Management System(React and SpringBoot)</h1>
 
               <img
                 className="rounded-lg object-cover "
@@ -219,6 +228,7 @@ export default function Index() {
             </div>
             
           </div>
+
         </section>
       </div>
       
