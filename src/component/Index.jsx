@@ -46,7 +46,7 @@ export default function Index() {
       <div className=" bg- px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10  mb-12 flex justify-between dark:text-white ">
-            <h1 className="font-burtons text-xl">DevelopedbyAB</h1>
+            <h1 className="font-burtons pt-3 text-xl">DevelopedbyAB</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -72,7 +72,7 @@ export default function Index() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
              Full Stack Web Developer and Designer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-1000 dark:text-white-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-md py-5 leading-8 text-gray-1000 dark:text-white-200 max-w-xl mx-auto md:text-xl sm:text-xl">
               Hello guys!! I am a full stack developer and UI/UX Designer worked on ReactJS,NodeJS,MongoDB,SQL,SpringBoot and AI based Designs.
             </p>
             <h4 className='text-md py-5 leading-8 text-red-1000 dark:text-yellow-500 max-w-xl mx-auto md:text-xl'> CheckOut My Socials</h4>
@@ -83,11 +83,11 @@ export default function Index() {
               <a href="https://github.com/ayanbaksi" className='w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300' ><AiFillGithub className='rounded-full'/></a>
               
             </div>
-            <div className='flex flex-col md:flex-row md:justify-center md:items-center'>
-  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
+            <div className='flex flex-col md:flex-row md:justify-center md:items-center '>
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96  md:mr-4">
     <img src={e} className="w-full h-full object-cover" alt="Image 1" />
   </div>
-  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96  md:mr-4 md:w-96">
     <img src={mypic} className="w-full h-full object-cover" alt="Image 2" />
   </div>
   <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96">
@@ -154,11 +154,11 @@ export default function Index() {
         </section>
         <section className="py-10">
         <div>
-  <h3 className="text-3xl font-burtons py-1 dark:text-white">Portfolio</h3>
-  <h1 className="font-burtons">
+  <h3 className="text-4xl font-burtons py-1 dark:text-white">Portfolio</h3>
+  <h1 className="font-burtons text-2xl pb-3">
     Hover in dark mode to see the beauty and reveal
   </h1>
-  <p className="text-md py-2 leading-8 dark:spoiler spoiler">
+  <p className="text-md py-2  leading-8 dark:spoiler spoiler">
     Since the beginning of my journey as a web developer,
     I've tried to learn new technologies and constantly strive to learn more.
     I am enthusiastic about contributing my skills to a reputable company.
