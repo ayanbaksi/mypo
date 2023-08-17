@@ -1,6 +1,6 @@
 import CV from '../assets/CV.pdf'
 import './Index.css'
-import Lottie from 'react-lottie';
+
 import hi from '../hi.json'
 import {
   AiFillTwitterCircle,
