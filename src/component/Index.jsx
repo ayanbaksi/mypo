@@ -83,8 +83,8 @@ export default function Index() {
               <a href="https://github.com/ayanbaksi" className='w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300' ><AiFillGithub className='rounded-full'/></a>
               
             </div>
-            <div className='flex flex-col md:flex-row md:justify-center md:items-center '>
-  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96  md:mr-4 md:resolution-1920*1080">
+            <div className='flex flex-col md:flex-row md:justify-center md:items-center md:resolution-1920*1080 '>
+  <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96 md:w-96  md:mr-4 ">
     <img src={e} className="w-full h-full object-cover" alt="Image 1" />
   </div>
   <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-96 h-96 overflow-hidden mt-4 mb-4 md:mt-20 md:mb-20 md:h-96  md:mr-4 md:w-96 md:resolution-1920*1080">
