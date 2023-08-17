@@ -28,7 +28,7 @@ import web4 from "../assets/aec.png";
 import web5 from "../assets/schl.png";
 import web6 from "../assets/schl2.jpg";
 import mypic from '../assets/mypic.jpeg'
-import Example from './CarouselDefault';
+
 
 
 export default function Index() {
