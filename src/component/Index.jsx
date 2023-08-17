@@ -27,8 +27,8 @@ import web5 from "../assets/schl.png";
 import web6 from "../assets/schl2.jpg";
 import mypic from '../assets/mypic.jpeg'
 
-import ContactForm from './ContactForm';
-export default function Home() {
+
+export default function Index() {
   const [darkMode, setDarkMode] = useState(false);
   const handleDownload = () => {
     const link = document.createElement('a');
