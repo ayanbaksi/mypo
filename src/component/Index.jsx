@@ -156,7 +156,7 @@ export default function Index() {
         <div>
   <h3 className="text-4xl font-burtons py-1 dark:text-white">Portfolio</h3>
   <h1 className="font-burtons text-2xl pb-3">
-    Hover in dark mode to see the beauty and reveal
+    Hover in dark mode to see the beauty and reveal the magic
   </h1>
   <p className="text-md py-2  leading-8 dark:spoiler spoiler">
     Since the beginning of my journey as a web developer,
