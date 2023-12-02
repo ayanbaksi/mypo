@@ -110,7 +110,7 @@ export default function Index() {
           <div className="lg:flex gap-10">
             <div className="text-center  shadow-lg p-10 rounded-xl my-10   flex-1 dark:bg-blue-500 dark:bg-opacity-10 transition-transform transform hover:scale-110">
             
-            <img src={web4} className=' h-40 w-100 pl-10 ml-10  '/>
+            <img src={web4} className=' h-40 w-100 m-0 mx-auto  '/>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white  ">
                 Let's Cover My College
               </h3>
@@ -125,7 +125,7 @@ export default function Index() {
               <p className="text-white-400 dark:text-black-500 py-1">📅2019-2023</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  flex-1 dark:bg-blue-500 dark:bg-opacity-10 transition-transform transform hover:scale-110">
-              <img src={web5} className='h-40 w-100 pl-10 '/>
+              <img src={web5} className='h-40 w-100 m-0 mx-auto '/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Higher Secondary Education
               </h3>
@@ -139,7 +139,7 @@ export default function Index() {
               <p className="text-white-400 py-1">📅2017-2019</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white-500 flex-1 dark:bg-blue-500 dark:bg-opacity-10 transition-transform transform hover:scale-110">
-            <img src={web6} layout="responsive" className='h-40 w-100 pl-100 ml-10'/>
+            <img src={web6} layout="responsive" className='h-40 w-100 m-0 mx-auto'/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Madhyamik Education</h3>
               <p className="py-2">
                 West Bengal Council Of HIgher Secondary Education
