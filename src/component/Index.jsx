@@ -1,4 +1,4 @@
-import CV from '../assets/CV.pdf'
+import CV from '../assets/resume.pdf'
 import './Index.css'
 
 import hi from '../hi.json'
@@ -78,7 +78,7 @@ export default function Index() {
             <h4 className='text-md py-5 leading-8 text-red-1000 dark:text-yellow-500 max-w-xl mx-auto md:text-xl'> CheckOut My Socials</h4>
             <div className="text-5xl flex justify-center gap-16 py-3 text-white-600 dark:text-white-400 ">
               
-              <a href="https://www.linkedin.com/in/ayan-baksi-aa5a001b1/" className=' w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300 ' ><AiFillLinkedin className='rounded-full'/></a>
+              <a href="https://www.linkedin.com/in/ayan-baksi-318a14298/" className=' w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300 ' ><AiFillLinkedin className='rounded-full'/></a>
                 
               <a href="https://github.com/ayanbaksi" className='w-20 h-20 bg-white-500 rounded-full flex items-center justify-center hover:bg-blue-200 transition duration-300' ><AiFillGithub className='rounded-full'/></a>
               
